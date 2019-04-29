@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/wheat</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/red</item>
+    </style>
+
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--设置AlertDialog背景色-->
+        <item name="android:windowBackground">@color/touming</item>
+        <!--是否依附于activity-->
+        <item name="android:windowIsFloating">true</item>
+        <!--AlertDialog昏暗色背景是否启用-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="loading_dialog2" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <!--设置AlertDialog背景色-->
+        <item name="android:windowBackground">@color/touming</item>
+        <!--是否依附于activity-->
+        <item name="android:windowIsFloating">true</item>
+        <!--AlertDialog昏暗色背景是否启用-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+    <style name="loading_dialog3">
+
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+
+        <!-- 这个说明提示框的背景颜色是什么-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/loding3</item>
+
+    </style>
+    <style name="loading_dialog5">
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+
+        <!-- 这个说明提示框的背景颜色是什么-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/loding3</item>
+
+    </style>
+
+    <style name="loading_dialog4" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <!-- 这个说明提示框是否有边框-->
+        <item name="android:windowIsFloating">true</item>
+        <!-- ;这个说明提示框是否是浮动的-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!-- 这个说明提示框是滞是透明的-->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 这个说明提示框是否有标题-->
+        <item name="android:windowBackground">@android:color/holo_green_light</item>
+        <!-- 这个说明提示框的背景颜色是什么-->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--  这个说明是否充许对话框的背景变暗。为true则充许变暗-->
+    </style>
+
+</resources>
