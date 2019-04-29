@@ -19,6 +19,7 @@ public class OneFragment extends BaseFragment {
     public View initview(LayoutInflater inflater, ViewGroup container) {
         View view = inflater.inflate(R.layout.fragment_one, null);
         TextView textView = new TextView(context);
+        textView.setText("是是是");
         return view;
     }
 
