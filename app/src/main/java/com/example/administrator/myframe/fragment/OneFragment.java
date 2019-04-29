@@ -14,7 +14,6 @@ import com.example.administrator.myframe.base.BaseFragment;
  */
 public class OneFragment extends BaseFragment {
 
-
     @Override
     public View initview(LayoutInflater inflater, ViewGroup container) {
         View view = inflater.inflate(R.layout.fragment_one, null);

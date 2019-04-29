@@ -23,5 +23,4 @@ public class MyListview extends ListView {
         super.onMeasure(widthMeasureSpec, expandSpec);
 
     }
-
 }
