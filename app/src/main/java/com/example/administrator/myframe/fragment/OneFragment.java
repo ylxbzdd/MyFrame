@@ -1,5 +1,6 @@
 package com.example.administrator.myframe.fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -7,6 +8,13 @@ import android.widget.TextView;
 
 import com.example.administrator.myframe.R;
 import com.example.administrator.myframe.base.BaseFragment;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.net.URLDecoder;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 
 /**
@@ -24,6 +32,5 @@ public class OneFragment extends BaseFragment {
 
     @Override
     public void initdata() {
-
     }
 }
